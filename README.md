@@ -13,11 +13,15 @@
 6. _**Enjoy the amazing shot you just created**_
 
 _**IMPORTANT:**_ Since SCP:SL clamps the rotation between 0 and 360 degrees, you will have to manually input rotation
-above 360° if there's a need to create a full 360° rotation.
+above 360° if there's a need to create a full 360° spin.
+
+There's a bug where **the player's rotation will get locked** at a point in time. Currently, I am unable to counter this
+problem. In case it occurs, export the path, rejoin the server and import it.
 
 # Setup:
 
-1. Install **[EXILED](https://github.com/Exiled-Team/EXILED/)** on your [dedicated server](https://en.scpslgame.com/index.php?title=Guide:Hosting_a_server)
+1. Install **[EXILED](https://github.com/Exiled-Team/EXILED/)** on
+   your [dedicated server](https://en.scpslgame.com/index.php?title=Guide:Hosting_a_server)
 2. Go to the **[releases page here](https://github.com/Axwabo/MotionPathInterpolation/releases/)**
    and download the **_MotionPathInterpolation.dll_** file
 3. Place the DLL into your _EXILED Plugins_ folder: **_%appdata%\EXILED\Plugins_**
